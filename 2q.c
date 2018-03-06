@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-	int a[2],i,s=0,f=0;
-	for(i=0;i<2;i++)
+	int a[10],i,s=0,f=0;
+	for(i=0;i<10;i++)
 	{
 		scanf("%d",&a[i]);
 	}
-	for(i=0;i<2;i++)
+	for(i=0;i<10;i++)
 	{
 	if(a[i]>f)
 	{
@@ -14,6 +14,6 @@ int main(void) {
               f=a[i];
 	}
 	}
-	printf("%d is largest number",f);
+	printf("%d \t %d are largest number",s,f);
 	return 0;
 }
