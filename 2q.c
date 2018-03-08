@@ -20,6 +20,6 @@ int main(void) {
 			s=a[i];
 		}
 	}
-	printf("%d,%d are tha largest number");
+	printf("%d,%d are tha largest number",s,f);
 	return 0;
 }
